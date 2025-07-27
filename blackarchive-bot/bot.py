@@ -21,7 +21,7 @@ logger = logging.getLogger(__name__)
 # Конфигурация
 TOKEN = os.getenv(BOT_TOKEN)  # Токен из переменной окружения
 ADMIN_ID = 1279885111
-WEBHOOK_URL = os.getenv(WEBHOOK_URL, httpsyour-bot.vercel.appwebhook)  # Замени после деплоя
+WEBHOOK_URL = os.getenv(WEBHOOK_URL, https://botblack.vercel.app/)
 
 # База данных (в памяти)
 products = {
